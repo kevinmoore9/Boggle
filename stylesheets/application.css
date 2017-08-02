@@ -1,0 +1,80 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #F57921;
+}
+
+body {
+  background-attachment: fixed;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 452px;
+}
+
+.logo-container {
+  display:flex;
+  padding: 30px;
+}
+
+.logo {
+  margin: auto;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 430px;
+  height: 430px;
+  border: 4px solid #FFCA08;
+  padding: 7px;
+  background-color: #398BD4;
+  margin: auto;
+}
+
+.die-clicked, .die{
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  vertical-align: center;
+  line-height: 70px;
+  margin: 7px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: -2px 2px 1px #696969;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.die-clicked {
+  background-color: #ACCEEC;
+}
+
+.die {
+  background-color: white;
+}
+
+.currentWord {
+  display: flex;
+}
+
+.currentWord p {
+  padding: 5px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.currentWord p.word {
+  font-weight: normal;
+}
+
+.submitButton {
+  height: 20px;
+  margin-left: auto;
+  align-self: center;
+}
