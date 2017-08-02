@@ -22526,6 +22526,11 @@ var Game = function (_React$Component) {
             currentWord: []
           };
         });
+      } else {
+        this.setState({
+          clicked: [],
+          currentWord: []
+        });
       }
     }
   }, {

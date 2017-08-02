@@ -72,6 +72,11 @@ class Game extends React.Component {
           currentWord: [],
         }
       ))
+    } else {
+      this.setState({
+        clicked: [],
+        currentWord: [],
+      })
     }
   }
 
