@@ -78,7 +78,11 @@ body {
 }
 
 .submitButton {
-  height: 20px;
+  -webkit-appearance: none;
+  height: 30px;
+  background-color: white;
+  font-size: 15px;
+  border-radius: 5px;
   margin-left: auto;
   align-self: center;
 }
