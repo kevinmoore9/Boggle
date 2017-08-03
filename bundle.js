@@ -22481,6 +22481,9 @@ var Game = function (_React$Component) {
     return _this;
   }
 
+  // checks if move was last clicked square, if so unclicks
+  // otherwise checks if space is adjacent to last click
+
   _createClass(Game, [{
     key: 'isValidMove',
     value: function isValidMove(idx) {
@@ -22514,6 +22517,10 @@ var Game = function (_React$Component) {
         });
       }
     }
+
+    // adds word to word table if it hasn't alredy been played
+    // *** will still add words that score 0, including an empty string (design choice)
+
   }, {
     key: 'onSubmitWord',
     value: function onSubmitWord(word) {

@@ -22,6 +22,9 @@ class Game extends React.Component {
     this.onSubmitWord = this.onSubmitWord.bind(this);
   }
 
+  // checks if move was last clicked square, if so unclicks
+  // otherwise checks if space is adjacent to last click
+
   isValidMove(idx) {
     let lastIdx = this.state.clicked[this.state.clicked.length - 1];
 
@@ -61,6 +64,9 @@ class Game extends React.Component {
       ))
     }
   }
+
+  // adds word to word table if it hasn't alredy been played
+  // *** will still add words that score 0, including an empty string (design choice)
 
   onSubmitWord(word) {
     let submittedWord = this.state.currentWord.join("");

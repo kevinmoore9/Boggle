@@ -30,6 +30,8 @@ body {
   margin: auto;
 }
 
+/*Main Grid and Dice Styles*/
+
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -63,6 +65,8 @@ body {
   background-color: white;
 }
 
+/*Current Word Box Styles*/
+
 .currentWord {
   display: flex;
 }
@@ -86,6 +90,8 @@ body {
   margin-left: auto;
   align-self: center;
 }
+
+/*Submitted Word Styling*/
 
 table, th, tbody, tr{
   border: 1px solid #FFCA08;
